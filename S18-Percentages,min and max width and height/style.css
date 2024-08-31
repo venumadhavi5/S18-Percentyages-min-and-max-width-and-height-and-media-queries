@@ -1,0 +1,70 @@
+div{
+    width: 30%;
+    height: 600px;
+    display:inline-block ;
+    border: 10px solid black;
+    border-radius: 20px 20px 20px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img{
+    width: 300px;
+    height:300px ;
+}
+h2{
+    font-size: 2rem;
+    color: blue;
+}
+#hibiscus{
+    background-color: aqua;
+    
+}
+#jasmine{
+    background-color: lightsalmon;
+}
+#rose{
+    background-color: lightgreen;
+    position: relative;
+    top: 5px;
+}
+#sunflower{
+    background-color: lightslategray;
+}
+#tulip{ 
+    background-color: lightpink;
+    
+
+}
+@media only screen and(min-width:1px)
+and(max-width:567px){
+    body{
+        background-color:rgb(17, 64, 94) ;
+
+    }
+    
+}
+@media only screen and(min-width:576px)
+and(max-width:768px){
+    body{
+        background-color: blueviolet;
+    }
+}
+@media only screen and(min-width:768px)
+and(max-width:992px){
+    body{
+        background-color: rgb(226, 226, 43);
+    }
+}
+@media only screen and(min-width:992px)
+and(max-width:1200px){
+    body{
+        background-color: rgb(43, 43, 226);
+    }
+}
+@media only screen and(min-width:1200px)
+and(max-width:1400px){
+    body{
+        background-color: rgb(226, 49, 43);
+    }
+}
